@@ -5028,7 +5028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "477d3821-9154-40e7-b53f-07b860b75991")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 149.86 106.68 0)
 			(effects
 				(font
@@ -5079,7 +5079,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5230,7 +5230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5738ef6a-165b-4ca2-8636-56d5b57486ac")
-		(property "Reference" "C15"
+		(property "Reference" "C3"
 			(at 274.32 88.8999 0)
 			(effects
 				(font
@@ -5284,7 +5284,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "C15")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -5704,7 +5704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69be1f2f-0a4d-4c06-8d1c-6df67f950a96")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 255.27 119.38 0)
 			(effects
 				(font
@@ -5755,7 +5755,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6041,7 +6041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "942f38da-5545-4e7f-bf89-2a58387e22cf")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 88.9 110.49 0)
 			(effects
 				(font
@@ -6092,7 +6092,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6197,7 +6197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9672725a-42dc-4b80-a080-4ad2be921c99")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 194.31 115.57 0)
 			(effects
 				(font
@@ -6248,7 +6248,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6660,7 +6660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa76dfb6-5949-48b7-acdb-a4da15d5678e")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR09"
 			(at 125.73 102.87 0)
 			(effects
 				(font
@@ -6711,7 +6711,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "#PWR08")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -6862,7 +6862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdcfbd35-bb76-417a-8083-5a20c3e417da")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR08"
 			(at 270.51 101.6 0)
 			(effects
 				(font
@@ -6913,7 +6913,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "#PWR056")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -6995,7 +6995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d2499041-7ad0-4b7f-aed0-a7395497d0af")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 81.28 95.25 0)
 			(effects
 				(font
@@ -7049,7 +7049,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7064,7 +7064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5cbc3fd-6986-4b7f-9534-afe66897e363")
-		(property "Reference" "C4"
+		(property "Reference" "C5"
 			(at 93.726 95.758 0)
 			(effects
 				(font
@@ -7118,7 +7118,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "C4")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7134,7 +7134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e19aed9c-cde3-4de4-96c4-0b79eaa51b0e")
-		(property "Reference" "C5"
+		(property "Reference" "C6"
 			(at 196.596 99.06 0)
 			(effects
 				(font
@@ -7188,7 +7188,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
-					(reference "C5")
+					(reference "C6")
 					(unit 1)
 				)
 			)
