@@ -1943,6 +1943,12 @@
 		(uuid "6bebef82-5e3b-4c6f-b4f1-52e1ab56b18e")
 	)
 	(junction
+		(at 175.26 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d655978-fcfe-4aaa-8466-e421540fcaa3")
+	)
+	(junction
 		(at 92.71 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1989,12 +1995,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7f1ee9e-a583-477c-b40f-08b4685b6860")
-	)
-	(junction
-		(at 168.91 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b90c8ffd-f060-49ae-a62c-5b538a806edb")
 	)
 	(junction
 		(at 86.36 31.75)
@@ -2425,7 +2425,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 58.42) (xy 168.91 74.93)
+			(xy 175.26 58.42) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 74.93) (xy 204.47 74.93)
+			(xy 195.58 74.93) (xy 204.47 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2652,6 +2652,16 @@
 			(type default)
 		)
 		(uuid "4aa2ed02-dea6-49c0-b75d-1f5f86619b3b")
+	)
+	(wire
+		(pts
+			(xy 270.51 85.09) (xy 255.27 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dcd7305-909e-4f14-9e28-e747608a4c10")
 	)
 	(wire
 		(pts
@@ -2735,7 +2745,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 58.42) (xy 168.91 58.42)
+			(xy 177.8 58.42) (xy 175.26 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2745,13 +2755,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 168.91 83.82)
+			(xy 175.26 74.93) (xy 175.26 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5ff8678b-0137-443b-b4da-05bd6901aa64")
+	)
+	(wire
+		(pts
+			(xy 270.51 85.09) (xy 270.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6291d722-fc8d-4732-80dc-1214dd446607")
 	)
 	(wire
 		(pts
@@ -2792,16 +2812,6 @@
 			(type default)
 		)
 		(uuid "669f139e-e521-4600-8c72-a51114af8920")
-	)
-	(wire
-		(pts
-			(xy 181.61 58.42) (xy 186.69 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "694327c3-4f3d-49f9-ac55-68d2627bc104")
 	)
 	(wire
 		(pts
@@ -3125,16 +3135,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 74.93) (xy 186.69 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0329ba5-6c9e-4ce2-ba80-ce19d4313489")
-	)
-	(wire
-		(pts
 			(xy 63.5 74.93) (xy 105.41 74.93)
 		)
 		(stroke
@@ -3142,16 +3142,6 @@
 			(type default)
 		)
 		(uuid "a088e273-b6bc-4f71-9314-1f8571a34af1")
-	)
-	(wire
-		(pts
-			(xy 255.27 85.09) (xy 255.27 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3483acd-3c7f-47f3-a761-32583158552a")
 	)
 	(wire
 		(pts
@@ -3335,6 +3325,16 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 85.09) (xy 255.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf8876d-918c-43a3-9b93-4b90ffa5a160")
+	)
+	(wire
+		(pts
 			(xy 204.47 74.93) (xy 214.63 74.93)
 		)
 		(stroke
@@ -3473,6 +3473,16 @@
 		)
 		(uuid "ce4c030b-750e-4e83-98c4-202d995f942d")
 	)
+	(wire
+		(pts
+			(xy 270.51 95.25) (xy 270.51 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d20d5bf0-6ec9-463c-aa5c-77289449373f")
+	)
 	(bus
 		(pts
 			(xy 161.29 31.75) (xy 217.17 31.75)
@@ -3495,7 +3505,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 58.42) (xy 196.85 58.42)
+			(xy 195.58 58.42) (xy 196.85 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3615,7 +3625,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 74.93) (xy 168.91 74.93)
+			(xy 177.8 74.93) (xy 175.26 74.93)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +4079,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 176.53 58.42 0)
+		(at 182.88 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4078,7 +4088,7 @@
 		(fields_autoplaced yes)
 		(uuid "0257eb1b-11c3-4eaf-9f7b-d3cefa58d485")
 		(property "Reference" "SW1"
-			(at 176.53 50.8 0)
+			(at 182.88 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4096,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 176.53 53.34 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4094,7 +4104,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
-			(at 176.53 53.34 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4113,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 53.34 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4122,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 176.53 58.42 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4227,7 +4237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 232.41 96.52 0)
 			(effects
 				(font
@@ -4271,7 +4281,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 168.91 83.82 0)
+		(at 175.26 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4280,7 +4290,7 @@
 		(fields_autoplaced yes)
 		(uuid "103092d6-0926-440f-a422-2f3278a865fa")
 		(property "Reference" "#PWR05"
-			(at 168.91 90.17 0)
+			(at 175.26 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4289,7 +4299,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 168.91 87.63 0)
+			(at 175.26 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4298,7 +4308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 83.82 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4307,7 +4317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 83.82 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 168.91 83.82 0)
+			(at 175.26 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +4415,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 74.93 270)
+		(at 191.77 74.93 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4413,7 +4423,7 @@
 		(dnp no)
 		(uuid "1c7e1139-122a-40c6-8131-136266b0c0e5")
 		(property "Reference" "R8"
-			(at 190.5 77.47 90)
+			(at 191.77 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,7 +4431,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 190.5 72.136 90)
+			(at 191.77 72.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4439,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 73.152 90)
+			(at 191.77 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4448,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4447,7 +4457,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 74.93 0)
+			(at 191.77 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,7 +4549,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 58.42 270)
+		(at 191.77 58.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4547,7 +4557,7 @@
 		(dnp no)
 		(uuid "2023048d-2fb8-4834-8844-4016465a6b40")
 		(property "Reference" "R5"
-			(at 190.5 60.96 90)
+			(at 191.77 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4565,7 @@
 			)
 		)
 		(property "Value" "2k"
-			(at 190.5 55.626 90)
+			(at 191.77 55.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +4573,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 190.5 56.642 90)
+			(at 191.77 56.642 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4572,7 +4582,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 58.42 0)
+			(at 191.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4591,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 58.42 0)
+			(at 191.77 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,7 +4639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 73.66 41.91 0)
 			(effects
 				(font
@@ -4699,7 +4709,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 149.86 95.25 0)
 			(effects
 				(font
@@ -4832,7 +4842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 73.66 39.37 0)
 			(effects
 				(font
@@ -5205,6 +5215,76 @@
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 270.51 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5738ef6a-165b-4ca2-8636-56d5b57486ac")
+		(property "Reference" "C15"
+			(at 274.32 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 274.32 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 271.4752 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 270.51 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f5a5fefd-dcd9-4dfe-8d3e-5c95328fd727")
+		)
+		(pin "1"
+			(uuid "4a5a529e-efd4-4208-9b03-0b5d692c0b97")
+		)
+		(instances
+			(project "STM32_DevBoard"
+				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5706,7 +5786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 232.41 91.44 0)
 			(effects
 				(font
@@ -5773,7 +5853,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 232.41 99.06 0)
 			(effects
 				(font
@@ -6460,7 +6540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 232.41 93.98 0)
 			(effects
 				(font
@@ -6528,7 +6608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -6730,7 +6810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "LocalLib:Jumper_0603"
 			(at 74.93 67.31 0)
 			(effects
 				(font
@@ -6767,6 +6847,73 @@
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
 					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 270.51 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdcfbd35-bb76-417a-8083-5a20c3e417da")
+		(property "Reference" "#PWR056"
+			(at 270.51 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 270.51 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f12936f-64b5-4a8c-a314-b32baf304810")
+		)
+		(instances
+			(project "STM32_DevBoard"
+				(path "/b840a7da-4064-48df-a68c-9dffdf854821"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7049,7 +7196,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 176.53 74.93 0)
+		(at 182.88 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7058,7 +7205,7 @@
 		(fields_autoplaced yes)
 		(uuid "f895e87a-0608-4c82-b1e2-91fa31fc0f98")
 		(property "Reference" "SW2"
-			(at 176.53 67.31 0)
+			(at 182.88 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7066,7 +7213,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 176.53 69.85 0)
+			(at 182.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7221,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
-			(at 176.53 69.85 0)
+			(at 182.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7230,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 69.85 0)
+			(at 182.88 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7092,7 +7239,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 176.53 74.93 0)
+			(at 182.88 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

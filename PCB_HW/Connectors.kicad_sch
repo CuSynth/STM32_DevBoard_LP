@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "8970116c-35e8-4f83-937d-8b17d48ef845")
+	(uuid "7bea1fc0-e75f-4baa-a52e-30b03dcdfa9b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Conn_01x04_MountingPin_1"
@@ -1852,6 +1852,151 @@
 				)
 			)
 		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -2261,6 +2406,12 @@
 		(uuid "88418dec-85ac-424c-858b-5bf673aa9976")
 	)
 	(junction
+		(at 100.33 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a15de6b-4af7-417c-937a-1229449c90ed")
+	)
+	(junction
 		(at 54.61 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2552,6 +2703,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 100.33) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "089c1aef-94de-47df-a65d-e766734c0332")
+	)
+	(wire
+		(pts
 			(xy 127 53.34) (xy 129.54 53.34)
 		)
 		(stroke
@@ -2739,6 +2900,16 @@
 			(type default)
 		)
 		(uuid "3bd6890e-fec8-4492-9872-73bf995ea5a9")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.25) (xy 100.33 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd830d7-ff8e-4d20-90a3-aa424231928e")
 	)
 	(wire
 		(pts
@@ -3130,6 +3301,16 @@
 		)
 		(uuid "9c6a7fa7-3ccd-4ee9-8127-1425c98b44ad")
 	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 121.92 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e6e5055-58e6-4dda-ae55-d5dc634b854e")
+	)
 	(bus
 		(pts
 			(xy 149.86 76.2) (xy 149.86 78.74)
@@ -3199,6 +3380,16 @@
 			(type default)
 		)
 		(uuid "b1474f52-cc5b-4a16-919b-c13e77920109")
+	)
+	(wire
+		(pts
+			(xy 100.33 95.25) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2cd872e-d73f-46a4-a7d2-bf8c3be50ae4")
 	)
 	(wire
 		(pts
@@ -3382,6 +3573,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 100.33) (xy 100.33 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da999da9-dd5a-41ca-8927-ac09ff9db70b")
+	)
+	(wire
+		(pts
 			(xy 152.4 90.17) (xy 162.56 90.17)
 		)
 		(stroke
@@ -3560,6 +3761,16 @@
 		)
 		(uuid "f7502e4d-0681-4e01-9f32-eca164f35299")
 	)
+	(wire
+		(pts
+			(xy 114.3 100.33) (xy 121.92 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a56c20-844d-4b9e-95a3-a8dc83e0384a")
+	)
 	(bus
 		(pts
 			(xy 149.86 60.96) (xy 149.86 63.5)
@@ -3609,6 +3820,17 @@
 			(justify left bottom)
 		)
 		(uuid "1ab4db51-fcc1-4e74-9311-89c8d22bf82c")
+	)
+	(label "mount_1"
+		(at 121.92 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1fa5c553-c7d2-45c4-802b-63f212bf2d59")
 	)
 	(label "PA2"
 		(at 152.4 48.26 0)
@@ -3826,6 +4048,17 @@
 		)
 		(uuid "ed502d17-cf15-4963-add1-30f7f587c255")
 	)
+	(label "mount_2"
+		(at 121.92 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef306f38-fb26-4820-8fd2-793c3d3f7566")
+	)
 	(label "PA7"
 		(at 152.4 66.04 0)
 		(effects
@@ -3869,7 +4102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "034de541-990a-4919-9a93-80b314d86fe1")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 137.16 41.5545 0)
 			(effects
 				(font
@@ -3930,7 +4163,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J2")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4158,7 +4391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "247c2b1b-df5c-4ce1-b576-5a09371d272d")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 166.37 40.132 0)
 			(effects
 				(font
@@ -4219,7 +4452,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -4293,6 +4526,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 109.22 95.25 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42430813-64bd-408a-bc0e-02b81d63186d")
+		(property "Reference" "JP11"
+			(at 106.172 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "mount_1"
+			(at 113.792 91.948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LocalLib:Jumper_0603"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 109.22 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d487584b-ba21-4c6c-84f1-4f92db71014e")
+		)
+		(pin "2"
+			(uuid "be4d3b2d-7141-4060-8099-5a0a10244cbf")
+		)
+		(instances
+			(project "STM32_DevBoard"
+				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin")
 		(at 49.53 38.1 0)
 		(unit 1)
@@ -4301,7 +4601,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43dcd7f3-550c-4937-a225-486536b225df")
-		(property "Reference" "J11"
+		(property "Reference" "J3"
 			(at 47.498 32.512 0)
 			(effects
 				(font
@@ -4320,7 +4620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal"
 			(at 49.53 38.1 0)
 			(effects
 				(font
@@ -4365,7 +4665,7 @@
 		(instances
 			(project ""
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J11")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4381,7 +4681,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45feb7de-23d4-413f-90ee-52288899accd")
-		(property "Reference" "J8"
+		(property "Reference" "J13"
 			(at 170.18 92.7099 0)
 			(effects
 				(font
@@ -4400,7 +4700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 167.64 92.71 0)
 			(effects
 				(font
@@ -4448,7 +4748,7 @@
 		(instances
 			(project ""
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J8")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4464,7 +4764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46f3cae1-858f-4f90-a917-849021a1e073")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 201.93 142.24 0)
 			(effects
 				(font
@@ -4515,7 +4815,74 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "#PWR052")
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 100.33 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa6c44a-de35-434d-bc9a-9b7bedfe3689")
+		(property "Reference" "#PWR050"
+			(at 100.33 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 100.33 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 100.33 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7504cca5-144e-4d42-aba6-be2309369c7f")
+		)
+		(instances
+			(project "STM32_DevBoard"
+				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -4530,7 +4897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fe84fe5-819c-4955-8f67-01d0d1746644")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -4580,7 +4947,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -4728,7 +5095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "70d7a398-6596-4237-9ada-d7c8984ac878")
-		(property "Reference" "J5"
+		(property "Reference" "J10"
 			(at 166.37 55.372 0)
 			(effects
 				(font
@@ -4789,7 +5156,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J5")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -4804,7 +5171,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71690b7e-bd13-4e03-8f2e-fa8110b7f1b3")
-		(property "Reference" "J12"
+		(property "Reference" "J4"
 			(at 57.912 32.512 0)
 			(effects
 				(font
@@ -4823,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
 			(at 59.69 40.64 0)
 			(effects
 				(font
@@ -4874,7 +5241,7 @@
 		(instances
 			(project ""
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J12")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4890,7 +5257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "767e2c09-bfbf-4b0c-864a-3ad34581bccf")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 209.55 121.92 0)
 			(effects
 				(font
@@ -4941,7 +5308,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -5024,7 +5391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79a13a68-176a-470c-b265-ee45cddcd5d9")
-		(property "Reference" "J10"
+		(property "Reference" "J14"
 			(at 212.09 101.9555 0)
 			(effects
 				(font
@@ -5088,7 +5455,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J10")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -5103,7 +5470,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7a3c6156-a212-4959-9019-7bf711875fc6")
-		(property "Reference" "J14"
+		(property "Reference" "J7"
 			(at 78.232 32.512 0)
 			(effects
 				(font
@@ -5122,7 +5489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
 			(at 80.01 43.18 0)
 			(effects
 				(font
@@ -5176,7 +5543,74 @@
 		(instances
 			(project ""
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J14")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 109.22 100.33 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "917a6b51-2d03-4418-b284-da5346b8d631")
+		(property "Reference" "JP12"
+			(at 106.172 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "mount_2"
+			(at 113.792 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LocalLib:Jumper_0603"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 109.22 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33abcf28-45db-4d2c-98a7-fdc195c83eca")
+		)
+		(pin "2"
+			(uuid "981bda05-2d35-4152-b01b-ab96e3f6941c")
+		)
+		(instances
+			(project "STM32_DevBoard"
+				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -5192,7 +5626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94f3ec4b-4023-4e8d-85fb-e18acc3a927c")
-		(property "Reference" "J7"
+		(property "Reference" "J12"
 			(at 166.37 70.612 0)
 			(effects
 				(font
@@ -5253,7 +5687,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J7")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5270,7 +5704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9cfde580-2a43-43a0-a6fd-7f6f88238051")
-		(property "Reference" "J4"
+		(property "Reference" "J9"
 			(at 137.16 58.0645 0)
 			(effects
 				(font
@@ -5331,7 +5765,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J4")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -5478,7 +5912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b102c0ee-fc2c-4787-88cf-72f4aef8c135")
-		(property "Reference" "J9"
+		(property "Reference" "J2"
 			(at 38.862 32.512 0)
 			(effects
 				(font
@@ -5497,7 +5931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 40.64 35.56 0)
 			(effects
 				(font
@@ -5536,7 +5970,7 @@
 		(instances
 			(project ""
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J9")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5552,7 +5986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba6a9827-7005-4dfc-b328-1bdfa9e08e5a")
-		(property "Reference" "J6"
+		(property "Reference" "J11"
 			(at 212.09 74.0155 0)
 			(effects
 				(font
@@ -5628,7 +6062,7 @@
 		(instances
 			(project "STM32_DevBoard"
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J6")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -5909,7 +6343,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9f6b7e4-7fc2-43be-b236-68ee9aa8e2c1")
-		(property "Reference" "J13"
+		(property "Reference" "J6"
 			(at 68.072 32.512 0)
 			(effects
 				(font
@@ -5928,7 +6362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0871_1x08-1MP_P1.25mm_Horizontal"
 			(at 69.85 43.18 0)
 			(effects
 				(font
@@ -5985,7 +6419,7 @@
 		(instances
 			(project ""
 				(path "/b840a7da-4064-48df-a68c-9dffdf854821/6833bd14-d2c2-4cb6-ab29-174ee16ea01a"
-					(reference "J13")
+					(reference "J6")
 					(unit 1)
 				)
 			)
